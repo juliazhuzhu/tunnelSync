@@ -1,0 +1,216 @@
+2019-06-27 10:04:23,304  INFO     [helper] helper:setup_logging:49: App start logging
+2019-06-27 10:04:23,304  INFO     [root] helper:setup_env:78: Setup env done
+2019-06-27 10:04:23,317  INFO     [werkzeug] _internal:_log:88:  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+2019-06-27 10:04:23,317  INFO     [werkzeug] _internal:_log:88:  * Restarting with stat
+2019-06-27 10:04:23,471  INFO     [helper] helper:setup_logging:49: App start logging
+2019-06-27 10:04:23,472  INFO     [root] helper:setup_env:78: Setup env done
+2019-06-27 10:04:23,483  WARNING  [werkzeug] _internal:_log:88:  * Debugger is active!
+2019-06-27 10:04:23,488  INFO     [werkzeug] _internal:_log:88:  * Debugger PIN: 123-246-673
+2019-06-27 10:06:53,997  INFO     [helper] helper:setup_logging:47: App start logging
+2019-06-27 10:06:53,997  INFO     [root] helper:setup_env:76: Setup env done
+2019-06-27 10:06:54,010  INFO     [werkzeug] _internal:_log:88:  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+2019-06-27 10:06:54,011  INFO     [werkzeug] _internal:_log:88:  * Restarting with stat
+2019-06-27 10:06:54,170  INFO     [helper] helper:setup_logging:47: App start logging
+2019-06-27 10:06:54,170  INFO     [root] helper:setup_env:76: Setup env done
+2019-06-27 10:06:54,179  WARNING  [werkzeug] _internal:_log:88:  * Debugger is active!
+2019-06-27 10:06:54,185  INFO     [werkzeug] _internal:_log:88:  * Debugger PIN: 123-246-673
+2019-06-27 10:07:02,738  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'addPort', 'audio': 1234, 'video': 455, 'content': 22, 'fecc': 22, 'bfcp': 11, 'sub_type': 'localOffer'}
+2019-06-27 10:07:02,739  INFO     [call] call:addLocalOfferPort:20: callid 1234, audio 1234 video 455 content 22 fecc 22 bfcp 11
+2019-06-27 10:07:02,739  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:07:02] "POST / HTTP/1.1" 200 -
+2019-06-27 10:07:02,742  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'addPort', 'audio': 1234, 'video': 455, 'content': 22, 'fecc': 22, 'bfcp': 11, 'sub_type': 'remoteAnswer'}
+2019-06-27 10:07:02,742  INFO     [call] call:addRemoteAnswerPort:53: callid 1234, audio 1234 video 455 content 22 fecc 22 bfcp 11
+2019-06-27 10:07:02,746  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:07:02] "POST / HTTP/1.1" 200 -
+2019-06-27 10:07:02,748  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'addPort', 'audio': 1235, 'video': 455, 'content': 22, 'fecc': 22, 'bfcp': 11, 'sub_type': 'remoteOffer'}
+2019-06-27 10:07:02,749  INFO     [call] call:addRemoteOfferPort:31: callid 1235, audio 1235 video 455 content 22 fecc 22 bfcp 11
+2019-06-27 10:07:02,749  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:07:02] "POST / HTTP/1.1" 200 -
+2019-06-27 10:07:02,751  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'addPort', 'audio': 1235, 'video': 455, 'content': 22, 'fecc': 22, 'bfcp': 11, 'sub_type': 'localAnswer'}
+2019-06-27 10:07:02,751  INFO     [call] call:addLocalAnswerPort:42: callid 1235, audio 1235 video 455 content 22 fecc 22 bfcp 11
+2019-06-27 10:07:02,760  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:07:02] "POST / HTTP/1.1" 200 -
+2019-06-27 10:07:02,762  INFO     [__main__] web_srv:do_ports:15: {'callid': '1236', 'type': 'addPort', 'audio': 1234, 'video': 455, 'content': 22, 'fecc': 22, 'bfcp': 11, 'sub_type': 'remoteAnswer'}
+2019-06-27 10:07:02,762  INFO     [call] call:addRemoteAnswerPort:53: callid 1236, audio 1234 video 455 content 22 fecc 22 bfcp 11
+2019-06-27 10:07:02,763  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:07:02] "POST / HTTP/1.1" 200 -
+2019-06-27 10:07:02,764  INFO     [__main__] web_srv:do_ports:15: {'callid': '1236', 'type': 'addPort', 'audio': 1234, 'video': 455, 'content': 22, 'fecc': 22, 'bfcp': 0, 'sub_type': 'localOffer'}
+2019-06-27 10:07:02,764  INFO     [call] call:addLocalOfferPort:20: callid 1236, audio 1234 video 455 content 22 fecc 22 bfcp 0
+2019-06-27 10:07:02,767  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:07:02] "POST / HTTP/1.1" 200 -
+2019-06-27 10:07:02,769  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'delPort'}
+2019-06-27 10:07:02,773  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:07:02] "POST / HTTP/1.1" 200 -
+2019-06-27 10:07:02,775  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'delPort'}
+2019-06-27 10:07:02,777  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:07:02] "POST / HTTP/1.1" 200 -
+2019-06-27 10:10:00,679  INFO     [helper] helper:setup_logging:47: App start logging
+2019-06-27 10:10:00,679  INFO     [root] helper:setup_env:76: Setup env done
+2019-06-27 10:10:00,692  INFO     [werkzeug] _internal:_log:88:  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+2019-06-27 10:10:00,692  INFO     [werkzeug] _internal:_log:88:  * Restarting with stat
+2019-06-27 10:10:00,855  INFO     [helper] helper:setup_logging:47: App start logging
+2019-06-27 10:10:00,855  INFO     [root] helper:setup_env:76: Setup env done
+2019-06-27 10:10:00,864  WARNING  [werkzeug] _internal:_log:88:  * Debugger is active!
+2019-06-27 10:10:00,870  INFO     [werkzeug] _internal:_log:88:  * Debugger PIN: 123-246-673
+2019-06-27 10:10:03,072  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'addPort', 'audio': 1112, 'video': 2222, 'content': 3332, 'fecc': 4444, 'bfcp': 5556, 'sub_type': 'localOffer'}
+2019-06-27 10:10:03,072  INFO     [call] call:addLocalOfferPort:20: callid 1234, audio 1112 video 2222 content 3332 fecc 4444 bfcp 5556
+2019-06-27 10:10:03,073  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:10:03] "POST / HTTP/1.1" 200 -
+2019-06-27 10:10:03,075  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'addPort', 'audio': 1112, 'video': 2222, 'content': 3332, 'fecc': 4444, 'bfcp': 5556, 'sub_type': 'remoteAnswer'}
+2019-06-27 10:10:03,075  INFO     [call] call:addRemoteAnswerPort:53: callid 1234, audio 1112 video 2222 content 3332 fecc 4444 bfcp 5556
+2019-06-27 10:10:03,078  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:10:03] "POST / HTTP/1.1" 200 -
+2019-06-27 10:10:03,080  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'addPort', 'audio': 1114, 'video': 2224, 'content': 3334, 'fecc': 4448, 'bfcp': 5558, 'sub_type': 'remoteOffer'}
+2019-06-27 10:10:03,081  INFO     [call] call:addRemoteOfferPort:31: callid 1235, audio 1114 video 2224 content 3334 fecc 4448 bfcp 5558
+2019-06-27 10:10:03,081  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:10:03] "POST / HTTP/1.1" 200 -
+2019-06-27 10:10:03,083  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'addPort', 'audio': 1114, 'video': 2224, 'content': 3334, 'fecc': 4446, 'bfcp': 5554, 'sub_type': 'localAnswer'}
+2019-06-27 10:10:03,083  INFO     [call] call:addLocalAnswerPort:42: callid 1235, audio 1114 video 2224 content 3334 fecc 4446 bfcp 5554
+2019-06-27 10:10:03,086  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:10:03] "POST / HTTP/1.1" 200 -
+2019-06-27 10:10:03,088  INFO     [__main__] web_srv:do_ports:15: {'callid': '1236', 'type': 'addPort', 'audio': 1116, 'video': 2228, 'content': 3336, 'fecc': 4442, 'bfcp': 5552, 'sub_type': 'remoteAnswer'}
+2019-06-27 10:10:03,088  INFO     [call] call:addRemoteAnswerPort:53: callid 1236, audio 1116 video 2228 content 3336 fecc 4442 bfcp 5552
+2019-06-27 10:10:03,089  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:10:03] "POST / HTTP/1.1" 200 -
+2019-06-27 10:10:03,091  INFO     [__main__] web_srv:do_ports:15: {'callid': '1236', 'type': 'addPort', 'audio': 1118, 'video': 2226, 'content': 3338, 'fecc': 4446, 'bfcp': 0, 'sub_type': 'localOffer'}
+2019-06-27 10:10:03,091  INFO     [call] call:addLocalOfferPort:20: callid 1236, audio 1118 video 2226 content 3338 fecc 4446 bfcp 0
+2019-06-27 10:10:03,095  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:10:03] "POST / HTTP/1.1" 200 -
+2019-06-27 10:10:03,097  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'delPort'}
+2019-06-27 10:10:03,099  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:10:03] "POST / HTTP/1.1" 200 -
+2019-06-27 10:10:03,101  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'delPort'}
+2019-06-27 10:10:03,104  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:10:03] "POST / HTTP/1.1" 200 -
+2019-06-27 10:20:34,341  INFO     [helper] helper:setup_logging:47: App start logging
+2019-06-27 10:20:34,341  INFO     [root] helper:setup_env:76: Setup env done
+2019-06-27 10:20:34,353  INFO     [werkzeug] _internal:_log:88:  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+2019-06-27 10:20:34,353  INFO     [werkzeug] _internal:_log:88:  * Restarting with stat
+2019-06-27 10:20:34,515  INFO     [helper] helper:setup_logging:47: App start logging
+2019-06-27 10:20:34,516  INFO     [root] helper:setup_env:76: Setup env done
+2019-06-27 10:20:34,527  WARNING  [werkzeug] _internal:_log:88:  * Debugger is active!
+2019-06-27 10:20:34,532  INFO     [werkzeug] _internal:_log:88:  * Debugger PIN: 123-246-673
+2019-06-27 10:20:38,652  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'addPort', 'audio': 1112, 'video': 2222, 'content': 3332, 'fecc': 4444, 'bfcp': 5556, 'sub_type': 'localOffer'}
+2019-06-27 10:20:38,653  INFO     [call] call:addLocalOfferPort:20: callid 1234, audio 1112 video 2222 content 3332 fecc 4444 bfcp 5556
+2019-06-27 10:20:38,653  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:20:38] "POST / HTTP/1.1" 200 -
+2019-06-27 10:20:38,657  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'addPort', 'audio': 1112, 'video': 2222, 'content': 3332, 'fecc': 4444, 'bfcp': 5556, 'sub_type': 'remoteAnswer'}
+2019-06-27 10:20:38,657  INFO     [call] call:addRemoteAnswerPort:53: callid 1234, audio 1112 video 2222 content 3332 fecc 4444 bfcp 5556
+2019-06-27 10:20:38,657  INFO     [call] call:write:79: /usr/bin/distr.sh add 50000 1112:1112 1113:1113 2222:2222 2223:2223 3332:3332 3333:3333 4444:4444 4445:4445 5556:5556 5557:5557 
+2019-06-27 10:20:38,660  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:20:38] "POST / HTTP/1.1" 200 -
+2019-06-27 10:20:38,662  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'addPort', 'audio': 1114, 'video': 2224, 'content': 3334, 'fecc': 4448, 'bfcp': 5558, 'sub_type': 'remoteOffer'}
+2019-06-27 10:20:38,662  INFO     [call] call:addRemoteOfferPort:31: callid 1235, audio 1114 video 2224 content 3334 fecc 4448 bfcp 5558
+2019-06-27 10:20:38,663  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:20:38] "POST / HTTP/1.1" 200 -
+2019-06-27 10:20:38,664  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'addPort', 'audio': 1114, 'video': 2224, 'content': 3334, 'fecc': 4446, 'bfcp': 5554, 'sub_type': 'localAnswer'}
+2019-06-27 10:20:38,665  INFO     [call] call:addLocalAnswerPort:42: callid 1235, audio 1114 video 2224 content 3334 fecc 4446 bfcp 5554
+2019-06-27 10:20:38,665  INFO     [call] call:write:79: /usr/bin/distr.sh add 50000 1114:1114 1115:1115 2224:2224 2225:2225 3334:3334 3335:3335 4448:4446 4449:4447 5558:5554 5559:5555 
+2019-06-27 10:20:38,667  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:20:38] "POST / HTTP/1.1" 200 -
+2019-06-27 10:20:38,670  INFO     [__main__] web_srv:do_ports:15: {'callid': '1236', 'type': 'addPort', 'audio': 1116, 'video': 2228, 'content': 3336, 'fecc': 4442, 'bfcp': 5552, 'sub_type': 'remoteAnswer'}
+2019-06-27 10:20:38,671  INFO     [call] call:addRemoteAnswerPort:53: callid 1236, audio 1116 video 2228 content 3336 fecc 4442 bfcp 5552
+2019-06-27 10:20:38,671  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:20:38] "POST / HTTP/1.1" 200 -
+2019-06-27 10:20:38,673  INFO     [__main__] web_srv:do_ports:15: {'callid': '1236', 'type': 'addPort', 'audio': 1118, 'video': 2226, 'content': 3338, 'fecc': 4446, 'bfcp': 0, 'sub_type': 'localOffer'}
+2019-06-27 10:20:38,674  INFO     [call] call:addLocalOfferPort:20: callid 1236, audio 1118 video 2226 content 3338 fecc 4446 bfcp 0
+2019-06-27 10:20:38,674  INFO     [call] call:write:79: /usr/bin/distr.sh add 50000 1116:1118 1117:1119 2228:2226 2229:2227 3336:3338 3337:3339 4442:4446 4443:4447 
+2019-06-27 10:20:38,676  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:20:38] "POST / HTTP/1.1" 200 -
+2019-06-27 10:20:38,678  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'delPort'}
+2019-06-27 10:20:38,679  INFO     [call] call:write:79: /usr/bin/distr.sh del 50000 1112:1112 1113:1113 2222:2222 2223:2223 3332:3332 3333:3333 4444:4444 4445:4445 5556:5556 5557:5557 
+2019-06-27 10:20:38,681  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:20:38] "POST / HTTP/1.1" 200 -
+2019-06-27 10:20:38,683  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'delPort'}
+2019-06-27 10:20:38,683  INFO     [call] call:write:79: /usr/bin/distr.sh del 50000 1114:1114 1115:1115 2224:2224 2225:2225 3334:3334 3335:3335 4448:4446 4449:4447 5558:5554 5559:5555 
+2019-06-27 10:20:38,687  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:20:38] "POST / HTTP/1.1" 200 -
+2019-06-27 10:51:46,798  INFO     [helper] helper:setup_logging:47: App start logging
+2019-06-27 10:51:46,798  INFO     [root] helper:setup_env:76: Setup env done
+2019-06-27 10:51:46,811  INFO     [werkzeug] _internal:_log:88:  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+2019-06-27 10:51:46,812  INFO     [werkzeug] _internal:_log:88:  * Restarting with stat
+2019-06-27 10:51:46,969  INFO     [helper] helper:setup_logging:47: App start logging
+2019-06-27 10:51:46,969  INFO     [root] helper:setup_env:76: Setup env done
+2019-06-27 10:51:46,980  WARNING  [werkzeug] _internal:_log:88:  * Debugger is active!
+2019-06-27 10:51:46,985  INFO     [werkzeug] _internal:_log:88:  * Debugger PIN: 123-246-673
+2019-06-27 10:51:51,649  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'addPort', 'audio': 1112, 'video': 2222, 'content': 3332, 'fecc': 4444, 'bfcp': 5556, 'sub_type': 'localOffer'}
+2019-06-27 10:51:51,650  INFO     [call] call:addLocalOfferPort:20: callid 1234, audio 1112 video 2222 content 3332 fecc 4444 bfcp 5556
+2019-06-27 10:51:51,651  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:51:51] "POST / HTTP/1.1" 200 -
+2019-06-27 10:51:51,654  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'addPort', 'audio': 1112, 'video': 2222, 'content': 3332, 'fecc': 4444, 'bfcp': 5556, 'sub_type': 'remoteAnswer'}
+2019-06-27 10:51:51,654  INFO     [call] call:addRemoteAnswerPort:53: callid 1234, audio 1112 video 2222 content 3332 fecc 4444 bfcp 5556
+2019-06-27 10:51:51,654  INFO     [call] call:write:79: /usr/bin/distr.sh add 50000 1112:1112 1113:1113 2222:2222 2223:2223 3332:3332 3333:3333 4444:4444 4445:4445 5556:5556 5557:5557 
+2019-06-27 10:51:51,657  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:51:51] "POST / HTTP/1.1" 200 -
+2019-06-27 10:51:51,659  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'addPort', 'audio': 1114, 'video': 2224, 'content': 3334, 'fecc': 4448, 'bfcp': 5558, 'sub_type': 'remoteOffer'}
+2019-06-27 10:51:51,660  INFO     [call] call:addRemoteOfferPort:31: callid 1235, audio 1114 video 2224 content 3334 fecc 4448 bfcp 5558
+2019-06-27 10:51:51,660  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:51:51] "POST / HTTP/1.1" 200 -
+2019-06-27 10:51:51,662  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'addPort', 'audio': 1114, 'video': 2224, 'content': 3334, 'fecc': 4446, 'bfcp': 5554, 'sub_type': 'localAnswer'}
+2019-06-27 10:51:51,662  INFO     [call] call:addLocalAnswerPort:42: callid 1235, audio 1114 video 2224 content 3334 fecc 4446 bfcp 5554
+2019-06-27 10:51:51,662  INFO     [call] call:write:79: /usr/bin/distr.sh add 50000 1114:1114 1115:1115 2224:2224 2225:2225 3334:3334 3335:3335 4448:4446 4449:4447 5558:5554 5559:5555 
+2019-06-27 10:51:51,666  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:51:51] "POST / HTTP/1.1" 200 -
+2019-06-27 10:51:51,669  INFO     [__main__] web_srv:do_ports:15: {'callid': '1236', 'type': 'addPort', 'audio': 1116, 'video': 2228, 'content': 3336, 'fecc': 4442, 'bfcp': 5552, 'sub_type': 'remoteAnswer'}
+2019-06-27 10:51:51,669  INFO     [call] call:addRemoteAnswerPort:53: callid 1236, audio 1116 video 2228 content 3336 fecc 4442 bfcp 5552
+2019-06-27 10:51:51,670  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:51:51] "POST / HTTP/1.1" 200 -
+2019-06-27 10:51:51,672  INFO     [__main__] web_srv:do_ports:15: {'callid': '1236', 'type': 'addPort', 'audio': 1118, 'video': 2226, 'content': 3338, 'fecc': 4446, 'bfcp': 0, 'sub_type': 'localOffer'}
+2019-06-27 10:51:51,673  INFO     [call] call:addLocalOfferPort:20: callid 1236, audio 1118 video 2226 content 3338 fecc 4446 bfcp 0
+2019-06-27 10:51:51,673  INFO     [call] call:write:79: /usr/bin/distr.sh add 50000 1116:1118 1117:1119 2228:2226 2229:2227 3336:3338 3337:3339 4442:4446 4443:4447 
+2019-06-27 10:51:51,675  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:51:51] "POST / HTTP/1.1" 200 -
+2019-06-27 10:51:51,677  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'delPort'}
+2019-06-27 10:51:51,678  INFO     [call] call:write:79: /usr/bin/distr.sh del 50000 1112:1112 1113:1113 2222:2222 2223:2223 3332:3332 3333:3333 4444:4444 4445:4445 5556:5556 5557:5557 
+2019-06-27 10:51:51,680  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:51:51] "POST / HTTP/1.1" 200 -
+2019-06-27 10:51:51,684  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'delPort'}
+2019-06-27 10:51:51,684  INFO     [call] call:write:79: /usr/bin/distr.sh del 50000 1114:1114 1115:1115 2224:2224 2225:2225 3334:3334 3335:3335 4448:4446 4449:4447 5558:5554 5559:5555 
+2019-06-27 10:51:51,686  INFO     [werkzeug] _internal:_log:88: 127.0.0.1 - - [27/Jun/2019 10:51:51] "POST / HTTP/1.1" 200 -
+2019-06-27 11:10:54,826  INFO     [helper] helper:setup_logging:47: App start logging
+2019-06-27 11:10:54,826  INFO     [root] helper:setup_env:76: Setup env done
+2019-06-27 11:10:54,839  INFO     [werkzeug] _internal:_log:88:  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+2019-06-27 11:10:54,839  INFO     [werkzeug] _internal:_log:88:  * Restarting with stat
+2019-06-27 11:10:54,995  INFO     [helper] helper:setup_logging:47: App start logging
+2019-06-27 11:10:54,995  INFO     [root] helper:setup_env:76: Setup env done
+2019-06-27 11:10:55,006  WARNING  [werkzeug] _internal:_log:88:  * Debugger is active!
+2019-06-27 11:10:55,011  INFO     [werkzeug] _internal:_log:88:  * Debugger PIN: 123-246-673
+2019-11-08 18:23:17,863  INFO     [helper] helper:setup_logging:47: App start logging
+2019-11-08 18:23:17,863  INFO     [root] helper:setup_env:76: Setup env done
+2019-11-08 18:23:17,879  INFO     [werkzeug] _internal:_log:122:  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+2019-11-08 18:23:17,880  INFO     [werkzeug] _internal:_log:122:  * Restarting with stat
+2019-11-08 18:23:18,077  INFO     [helper] helper:setup_logging:47: App start logging
+2019-11-08 18:23:18,077  INFO     [root] helper:setup_env:76: Setup env done
+2019-11-08 18:23:18,087  WARNING  [werkzeug] _internal:_log:122:  * Debugger is active!
+2019-11-08 18:23:18,095  INFO     [werkzeug] _internal:_log:122:  * Debugger PIN: 910-288-730
+2019-11-08 18:23:21,644  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'addPort', 'audio': 1112, 'video': 2222, 'content': 3332, 'fecc': 4444, 'bfcp': 5556, 'sub_type': 'localOffer'}
+2019-11-08 18:23:21,644  INFO     [call] call:addLocalOfferPort:20: callid 1234, audio 1112 video 2222 content 3332 fecc 4444 bfcp 5556
+2019-11-08 18:23:21,645  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:23:21] "POST / HTTP/1.1" 200 -
+2019-11-08 18:23:21,649  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'addPort', 'audio': 1112, 'video': 2222, 'content': 3332, 'fecc': 4444, 'bfcp': 5556, 'sub_type': 'remoteAnswer'}
+2019-11-08 18:23:21,649  INFO     [call] call:addRemoteAnswerPort:53: callid 1234, audio 1112 video 2222 content 3332 fecc 4444 bfcp 5556
+2019-11-08 18:23:21,649  INFO     [call] call:write:79: /usr/bin/distr.sh add 50000 1112:1112 1113:1113 2222:2222 2223:2223 3332:3332 3333:3333 4444:4444 4445:4445 5556:5556 5557:5557 
+2019-11-08 18:23:21,654  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:23:21] "POST / HTTP/1.1" 200 -
+2019-11-08 18:23:21,656  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'addPort', 'audio': 1114, 'video': 2224, 'content': 3334, 'fecc': 4448, 'bfcp': 5558, 'sub_type': 'remoteOffer'}
+2019-11-08 18:23:21,657  INFO     [call] call:addRemoteOfferPort:31: callid 1235, audio 1114 video 2224 content 3334 fecc 4448 bfcp 5558
+2019-11-08 18:23:21,657  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:23:21] "POST / HTTP/1.1" 200 -
+2019-11-08 18:23:21,659  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'addPort', 'audio': 1114, 'video': 2224, 'content': 3334, 'fecc': 4446, 'bfcp': 5554, 'sub_type': 'localAnswer'}
+2019-11-08 18:23:21,659  INFO     [call] call:addLocalAnswerPort:42: callid 1235, audio 1114 video 2224 content 3334 fecc 4446 bfcp 5554
+2019-11-08 18:23:21,659  INFO     [call] call:write:79: /usr/bin/distr.sh add 50000 1114:1114 1115:1115 2224:2224 2225:2225 3334:3334 3335:3335 4448:4446 4449:4447 5558:5554 5559:5555 
+2019-11-08 18:23:21,663  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:23:21] "POST / HTTP/1.1" 200 -
+2019-11-08 18:23:21,665  INFO     [__main__] web_srv:do_ports:15: {'callid': '1236', 'type': 'addPort', 'audio': 1116, 'video': 2228, 'content': 3336, 'fecc': 4442, 'bfcp': 5552, 'sub_type': 'remoteAnswer'}
+2019-11-08 18:23:21,666  INFO     [call] call:addRemoteAnswerPort:53: callid 1236, audio 1116 video 2228 content 3336 fecc 4442 bfcp 5552
+2019-11-08 18:23:21,666  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:23:21] "POST / HTTP/1.1" 200 -
+2019-11-08 18:23:21,669  INFO     [__main__] web_srv:do_ports:15: {'callid': '1236', 'type': 'addPort', 'audio': 1118, 'video': 2226, 'content': 3338, 'fecc': 4446, 'bfcp': 0, 'sub_type': 'localOffer'}
+2019-11-08 18:23:21,669  INFO     [call] call:addLocalOfferPort:20: callid 1236, audio 1118 video 2226 content 3338 fecc 4446 bfcp 0
+2019-11-08 18:23:21,669  INFO     [call] call:write:79: /usr/bin/distr.sh add 50000 1116:1118 1117:1119 2228:2226 2229:2227 3336:3338 3337:3339 4442:4446 4443:4447 
+2019-11-08 18:23:21,673  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:23:21] "POST / HTTP/1.1" 200 -
+2019-11-08 18:23:21,675  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'delPort'}
+2019-11-08 18:23:21,675  INFO     [call] call:write:79: /usr/bin/distr.sh del 50000 1112:1112 1113:1113 2222:2222 2223:2223 3332:3332 3333:3333 4444:4444 4445:4445 5556:5556 5557:5557 
+2019-11-08 18:23:21,678  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:23:21] "POST / HTTP/1.1" 200 -
+2019-11-08 18:23:21,680  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'delPort'}
+2019-11-08 18:23:21,680  INFO     [call] call:write:79: /usr/bin/distr.sh del 50000 1114:1114 1115:1115 2224:2224 2225:2225 3334:3334 3335:3335 4448:4446 4449:4447 5558:5554 5559:5555 
+2019-11-08 18:23:21,683  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:23:21] "POST / HTTP/1.1" 200 -
+2019-11-08 18:40:04,597  INFO     [helper] helper:setup_logging:47: App start logging
+2019-11-08 18:40:04,598  INFO     [root] helper:setup_env:76: Setup env done
+2019-11-08 18:40:04,612  INFO     [werkzeug] _internal:_log:122:  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+2019-11-08 18:40:04,614  INFO     [werkzeug] _internal:_log:122:  * Restarting with stat
+2019-11-08 18:40:05,386  INFO     [helper] helper:setup_logging:47: App start logging
+2019-11-08 18:40:05,386  INFO     [root] helper:setup_env:76: Setup env done
+2019-11-08 18:40:05,408  WARNING  [werkzeug] _internal:_log:122:  * Debugger is active!
+2019-11-08 18:40:05,417  INFO     [werkzeug] _internal:_log:122:  * Debugger PIN: 910-288-730
+2019-11-08 18:40:11,529  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'addPort', 'audio': 1112, 'video': 2222, 'content': 3332, 'fecc': 4444, 'bfcp': 5556, 'sub_type': 'localOffer'}
+2019-11-08 18:40:11,529  INFO     [call] call:addLocalOfferPort:20: callid 1234, audio 1112 video 2222 content 3332 fecc 4444 bfcp 5556
+2019-11-08 18:40:11,531  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:40:11] "POST / HTTP/1.1" 200 -
+2019-11-08 18:40:11,537  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'addPort', 'audio': 1112, 'video': 2222, 'content': 3332, 'fecc': 4444, 'bfcp': 5556, 'sub_type': 'remoteAnswer'}
+2019-11-08 18:40:11,538  INFO     [call] call:addRemoteAnswerPort:53: callid 1234, audio 1112 video 2222 content 3332 fecc 4444 bfcp 5556
+2019-11-08 18:40:11,538  INFO     [call] call:write:79: /usr/bin/distr.sh add 50000 1112:1112 1113:1113 2222:2222 2223:2223 3332:3332 3333:3333 4444:4444 4445:4445 5556:5556 5557:5557 
+2019-11-08 18:40:11,543  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:40:11] "POST / HTTP/1.1" 200 -
+2019-11-08 18:40:11,546  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'addPort', 'audio': 1114, 'video': 2224, 'content': 3334, 'fecc': 4448, 'bfcp': 5558, 'sub_type': 'remoteOffer'}
+2019-11-08 18:40:11,547  INFO     [call] call:addRemoteOfferPort:31: callid 1235, audio 1114 video 2224 content 3334 fecc 4448 bfcp 5558
+2019-11-08 18:40:11,548  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:40:11] "POST / HTTP/1.1" 200 -
+2019-11-08 18:40:11,552  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'addPort', 'audio': 1114, 'video': 2224, 'content': 3334, 'fecc': 4446, 'bfcp': 5554, 'sub_type': 'localAnswer'}
+2019-11-08 18:40:11,552  INFO     [call] call:addLocalAnswerPort:42: callid 1235, audio 1114 video 2224 content 3334 fecc 4446 bfcp 5554
+2019-11-08 18:40:11,553  INFO     [call] call:write:79: /usr/bin/distr.sh add 50000 1114:1114 1115:1115 2224:2224 2225:2225 3334:3334 3335:3335 4448:4446 4449:4447 5558:5554 5559:5555 
+2019-11-08 18:40:11,557  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:40:11] "POST / HTTP/1.1" 200 -
+2019-11-08 18:40:11,560  INFO     [__main__] web_srv:do_ports:15: {'callid': '1236', 'type': 'addPort', 'audio': 1116, 'video': 2228, 'content': 3336, 'fecc': 4442, 'bfcp': 5552, 'sub_type': 'remoteAnswer'}
+2019-11-08 18:40:11,561  INFO     [call] call:addRemoteAnswerPort:53: callid 1236, audio 1116 video 2228 content 3336 fecc 4442 bfcp 5552
+2019-11-08 18:40:11,562  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:40:11] "POST / HTTP/1.1" 200 -
+2019-11-08 18:40:11,564  INFO     [__main__] web_srv:do_ports:15: {'callid': '1236', 'type': 'addPort', 'audio': 1118, 'video': 2226, 'content': 3338, 'fecc': 4446, 'bfcp': 0, 'sub_type': 'localOffer'}
+2019-11-08 18:40:11,565  INFO     [call] call:addLocalOfferPort:20: callid 1236, audio 1118 video 2226 content 3338 fecc 4446 bfcp 0
+2019-11-08 18:40:11,565  INFO     [call] call:write:79: /usr/bin/distr.sh add 50000 1116:1118 1117:1119 2228:2226 2229:2227 3336:3338 3337:3339 4442:4446 4443:4447 
+2019-11-08 18:40:11,570  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:40:11] "POST / HTTP/1.1" 200 -
+2019-11-08 18:40:11,573  INFO     [__main__] web_srv:do_ports:15: {'callid': '1234', 'type': 'delPort'}
+2019-11-08 18:40:11,573  INFO     [call] call:write:79: /usr/bin/distr.sh del 50000 1112:1112 1113:1113 2222:2222 2223:2223 3332:3332 3333:3333 4444:4444 4445:4445 5556:5556 5557:5557 
+2019-11-08 18:40:11,577  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:40:11] "POST / HTTP/1.1" 200 -
+2019-11-08 18:40:11,580  INFO     [__main__] web_srv:do_ports:15: {'callid': '1235', 'type': 'delPort'}
+2019-11-08 18:40:11,581  INFO     [call] call:write:79: /usr/bin/distr.sh del 50000 1114:1114 1115:1115 2224:2224 2225:2225 3334:3334 3335:3335 4448:4446 4449:4447 5558:5554 5559:5555 
+2019-11-08 18:40:11,585  INFO     [werkzeug] _internal:_log:122: 127.0.0.1 - - [08/Nov/2019 18:40:11] "POST / HTTP/1.1" 200 -
